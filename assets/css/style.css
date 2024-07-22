@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%);
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    width: 375px
+}
+
+
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+
+}
+
+
+
+.text {
+    width: 315px;
+    padding: 30px;
+    overflow: auto;
+
+
+
+}
+
+
+
+.pinkblock {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.pinkblock h3 {
+    color: hsl(332, 51%, 32%);
+    padding: 10px 10px 10px 0px;
+}
+
+::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+
+}
+
+.pinkblock ul {
+
+    padding-left: 15px;
+    padding-right: 30px;
+    line-height: 2;
+    font-weight: 300;
+
+}
+
+.pinkblock li {
+    padding: 5px;
+
+}
+
+.ingredients {
+    margin-left: 15px;
+}
+
+.ingredients h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    padding: 10px;
+
+}
+
+.ingredients ul {
+    padding: 10px;
+    line-height: 2;
+}
+
+.ingredients li {
+    padding: 10px;
+}
+
+
+.intructions {
+    margin-left: 15px;
+}
+
+.intructions h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    padding: 10px;
+
+}
+
+.intructions ol {
+    padding: 10px;
+    line-height: 2;
+}
+
+.intructions li {
+    padding: 10px;
+}
+
+.nutrition {
+    margin-left: 15px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.nutrition h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    padding: 10px;
+
+}
+
+table {
+    line-height: 3;
+
+}
+
+table td {
+    border-style: none none solid none;
+    border-width: 1px;
+}
+
+
+table p {
+    margin: 40px;
+
+}
+
+table strong {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+
+}
+
+.attribution {
+    padding: 20px;
+
+}
+
+.attribution p, a{
+    font-size: 10px;
+    color: rgb(153, 61, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+@media (min-width:376px) {
+    body{
+        background-color: hsl(30, 54%, 90%);
+        margin-top: 30px;
+    }
+
+    .conteiner{
+        
+        width: 700px;
+        background-color: white;
+        border-radius: 10px;
+        margin:auto;
+        padding: 25px;
+        align-items: center;
+    }
+
+    img{
+        margin: auto;
+        border-radius: 10px;
+        width: 690px;
+    }
+
+    .text{
+        margin: auto;
+        width: 650px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
